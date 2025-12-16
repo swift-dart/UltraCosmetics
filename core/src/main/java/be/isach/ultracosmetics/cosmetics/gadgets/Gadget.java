@@ -88,15 +88,19 @@ public abstract class Gadget extends Cosmetic<GadgetType> implements UnmovableIt
 
     @Override
     public boolean tryEquip() {
+        getUltraCosmetics().getLogger().info("[DEBUG GADGET] tryEquip called for " + getTypeName());
         getOwner().removeCosmetic(Category.GADGETS);
         ItemStack current = getPlayer().getInventory().getItem(slot);
+        getUltraCosmetics().getLogger().info("[DEBUG GADGET] Slot " + slot + " current item: " + (current == null ? "null" : current.getType()));
         if (current != null && current.getType() != Material.AIR) {
+            getUltraCosmetics().getLogger().info("[DEBUG GADGET] Slot occupied, cannot equip");
             MessageManager.send(getPlayer(), "Must-Remove.Gadgets",
                     Placeholder.unparsed("slot", String.valueOf(slot + 1))
             );
             return false;
         }
 
+        getUltraCosmetics().getLogger().info("[DEBUG GADGET] Calling equipItem()");
         equipItem();
         return true;
     }
@@ -191,8 +195,11 @@ public abstract class Gadget extends Cosmetic<GadgetType> implements UnmovableIt
     }
 
     public void equipItem() {
+        getUltraCosmetics().getLogger().info("[DEBUG GADGET] equipItem called");
         updateItemStack();
+        getUltraCosmetics().getLogger().info("[DEBUG GADGET] Setting item in slot " + slot + ": " + itemStack.getType());
         getPlayer().getInventory().setItem(slot, this.itemStack);
+        getUltraCosmetics().getLogger().info("[DEBUG GADGET] Item equipped successfully");
     }
 
     protected boolean checkRequirements(PlayerInteractEvent event) {

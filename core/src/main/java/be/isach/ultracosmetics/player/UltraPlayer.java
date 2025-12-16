@@ -520,18 +520,44 @@ public class UltraPlayer {
      * Gives the Menu Item.
      */
     public void giveMenuItem() {
-        if (!menuItemEnabled || getBukkitPlayer() == null) {
+        giveMenuItem(false);
+    }
+
+    public void giveMenuItem(boolean forceGive) {
+        ultraCosmetics.getLogger().info("[DEBUG MENUITEM] giveMenuItem called - forceGive: " + forceGive + ", menuItemEnabled: " + menuItemEnabled);
+        if (!forceGive && !menuItemEnabled) {
+            ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Skipping - menu item disabled");
             return;
         }
+        if (getBukkitPlayer() == null) {
+            ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Skipping - player is null");
+            return;
+        }
+        ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Removing old menu item");
         removeMenuItem();
         ConfigurationSection section = SettingsManager.getConfig().getConfigurationSection("Menu-Item");
         int slot = section.getInt("Slot");
         ItemStack slotItem = getBukkitPlayer().getInventory().getItem(slot);
         ItemStack menuItem = ItemFactory.getMenuItem();
+        ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Slot " + slot + " current item: " + (slotItem == null ? "null" : slotItem.getType()));
+        ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Menu item to set: " + (menuItem == null ? "NULL" : menuItem.getType() + " x" + menuItem.getAmount()));
+        if (menuItem == null) {
+            ultraCosmetics.getLogger().severe("[DEBUG MENUITEM] ERROR: Menu item is NULL! Cannot set!");
+            return;
+        }
         if (slotItem != null && !ItemFactory.isSimilar(slotItem, menuItem)) {
+            ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Dropping existing item in slot");
             getBukkitPlayer().getWorld().dropItemNaturally(getBukkitPlayer().getLocation(), slotItem);
         }
-        getBukkitPlayer().getInventory().setItem(slot, menuItem);
+        ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Setting menu item in slot " + slot + " - Item: " + menuItem.getType());
+        getBukkitPlayer().getInventory().setItem(slot, menuItem.clone());
+        getBukkitPlayer().updateInventory();
+        ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Inventory updated");
+        
+        // Verify the item is still there
+        ItemStack verifyItem = getBukkitPlayer().getInventory().getItem(slot);
+        ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Verification - slot " + slot + " now has: " + (verifyItem == null ? "null" : verifyItem.getType()));
+        ultraCosmetics.getLogger().info("[DEBUG MENUITEM] Menu item given successfully");
     }
 
     /**

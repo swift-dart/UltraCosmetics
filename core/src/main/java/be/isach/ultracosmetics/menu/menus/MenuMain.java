@@ -29,35 +29,41 @@ public class MenuMain extends Menu {
 
     @Override
     public void open(UltraPlayer player) {
-        if (!UltraCosmeticsData.get().areTreasureChestsEnabled() && Category.enabledSize() == 1) {
-            getUltraCosmetics().getMenus().getCategoryMenu(Category.enabled().get(0)).open(player);
-            return;
-        }
         super.open(player);
     }
 
     @Override
-    protected void putItems(Inventory inventory, UltraPlayer player) {
-        Player bukkitPlayer = player.getBukkitPlayer();
-        int visible = countVisibleCategories(bukkitPlayer);
+    protected int getSize() {
+        return 9; // 1 row only
+    }
 
-        int[] layout = makeLayout(visible);
-        int i = 0;
-        boolean foundSuits = false;
+    @Override
+    protected void putItems(Inventory inventory, UltraPlayer player) {
+        // Fixed layout: Pets=0, Gadgets=1, Effects=2, Mounts=3, Hats=4, Clear=8
         for (Category category : Category.enabled()) {
-            if (!canSee(bukkitPlayer, category)) continue;
-            // Avoid counting suits categories as different menu items
-            if (category.isSuits()) {
-                if (foundSuits) continue;
-                foundSuits = true;
+            int slot = -1;
+            switch (category) {
+                case PETS:
+                    slot = 0;
+                    break;
+                case GADGETS:
+                    slot = 1;
+                    break;
+                case EFFECTS:
+                    slot = 2;
+                    break;
+                case MOUNTS:
+                    slot = 3;
+                    break;
+                case HATS:
+                    slot = 4;
+                    break;
+                default:
+                    continue; // Skip other categories
             }
-            putItem(inventory, layout[i++], new OpenCosmeticMenuButton(getUltraCosmetics(), category), player);
+            putItem(inventory, slot, new OpenCosmeticMenuButton(getUltraCosmetics(), category), player);
         }
-        putItem(inventory, inventory.getSize() - 5, new ClearCosmeticButton(), player);
-        if (UltraCosmeticsData.get().areTreasureChestsEnabled()) {
-            putItem(inventory, 5, new KeysButton(ultraCosmetics), player);
-            putItem(inventory, 3, new OpenChestButton(ultraCosmetics), player);
-        }
+        putItem(inventory, 8, new ClearCosmeticButton(), player);
     }
 
     protected boolean canSee(Player player, Category category) {
@@ -130,9 +136,6 @@ public class MenuMain extends Menu {
         return title;
     }
 
-    @Override
-    protected int getSize() {
-        return UltraCosmeticsData.get().areTreasureChestsEnabled() ? 54 : 45;
-    }
+    
 
 }

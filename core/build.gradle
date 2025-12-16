@@ -70,7 +70,7 @@ dependencies {
     compileOnly files('libs/NexEngine.jar')
     compileOnly files('libs/ChestSortAPI-13.0.0-SNAPSHOT.jar')
     // Shaded by root project
-    compileOnly(project(':legacy-events'))
+    implementation(project(':legacy-events'))
 }
 
 shadowJar {

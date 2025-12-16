@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
 public enum Category {
 
     PETS("Pets", "petname", "pets", "pe", true, () -> UltraCosmeticsData.get().isMobChipAvailable()),
-    GADGETS("Gadgets", "gadgetname", "gadgets", "g", true),
+    GADGETS("Gadgets", "gadgetname", "gadgets", "g", false),
     EFFECTS("Particle-Effects", "effectname", "particleeffects", "ef", true),
     MOUNTS("Mounts", "mountname", "mounts", "mou", true),
     MORPHS("Morphs", "morphname", "morphs", "mor", true, () -> Bukkit.getPluginManager().isPluginEnabled("LibsDisguises")),

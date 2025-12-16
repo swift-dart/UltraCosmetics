@@ -19,10 +19,12 @@ public class PriorityListener implements Listener {
     public PriorityListener(UltraCosmetics ultraCosmetics) {
         this.ultraCosmetics = ultraCosmetics;
         SubCommandTroubleshoot search = null;
-        for (SubCommand command : ultraCosmetics.getCommandManager().getCommands()) {
-            if (command instanceof SubCommandTroubleshoot) {
-                search = (SubCommandTroubleshoot) command;
-                break;
+        if (ultraCosmetics.getCommandManager() != null) {
+            for (SubCommand command : ultraCosmetics.getCommandManager().getCommands()) {
+                if (command instanceof SubCommandTroubleshoot) {
+                    search = (SubCommandTroubleshoot) command;
+                    break;
+                }
             }
         }
         troubleshoot = search;
@@ -30,6 +32,7 @@ public class PriorityListener implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
+        if (troubleshoot == null) return;
         long nonInfoProblems = ultraCosmetics.getProblems().stream().filter(p -> p.getSeverity() != ProblemSeverity.INFO).count();
         if (nonInfoProblems > 0 && event.getPlayer().hasPermission(troubleshoot.getPermission())) {
             event.getPlayer().sendMessage(ChatColor.RED + "UltraCosmetics currently has " + nonInfoProblems + " problems, please run '/uc troubleshoot' to learn more.");

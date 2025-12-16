@@ -56,13 +56,20 @@ public abstract class CosmeticsProfile {
     public void equip() {
         if (!ultraPlayer.isOnline()) return;
         if (!SettingsManager.isAllowedWorld(ultraPlayer.getBukkitPlayer().getWorld())) return;
+        ultraCosmetics.getLogger().info("[DEBUG PROFILE] Equipping cosmetics for " + ultraPlayer.getBukkitPlayer().getName());
+        ultraCosmetics.getLogger().info("[DEBUG PROFILE] Enabled cosmetics count: " + data.getEnabledCosmetics().size());
         ultraPlayer.withPreserveEquipped(() -> {
             for (Entry<Category, CosmeticType<?>> type : data.getEnabledCosmetics().entrySet()) {
+                ultraCosmetics.getLogger().info("[DEBUG PROFILE] Found cosmetic: " + type.getKey() + " = " + (type.getValue() == null ? "null" : type.getValue().getConfigName()));
                 if (type.getValue() != null && type.getKey().isEnabled() && type.getValue().isEnabled()) {
+                    ultraCosmetics.getLogger().info("[DEBUG PROFILE] Equipping: " + type.getKey() + " - " + type.getValue().getConfigName());
                     type.getValue().equip(ultraPlayer, ultraCosmetics);
+                } else {
+                    ultraCosmetics.getLogger().info("[DEBUG PROFILE] Skipping (disabled or null): " + type.getKey());
                 }
             }
         });
+        ultraCosmetics.getLogger().info("[DEBUG PROFILE] Finished equipping cosmetics");
     }
 
     public void setEnabledCosmetic(Category cat, Cosmetic<?> cosmetic) {

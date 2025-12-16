@@ -21,6 +21,7 @@ import be.isach.ultracosmetics.listeners.MainListener;
 import be.isach.ultracosmetics.listeners.PlayerListener;
 import be.isach.ultracosmetics.listeners.PriorityListener;
 import be.isach.ultracosmetics.listeners.UnmovableItemListener;
+import be.isach.ultracosmetics.listeners.CosmeticsHotbarListener;
 import be.isach.ultracosmetics.menu.CosmeticsInventoryHolder;
 import be.isach.ultracosmetics.menu.Menus;
 import be.isach.ultracosmetics.menu.menus.CustomMainMenu;
@@ -239,7 +240,9 @@ public class UltraCosmetics extends JavaPlugin {
         // Enable command manager as early as possible
         // so we can print helpful error messages about
         // why the plugin didn't start correctly.
-        commandManager = new CommandManager(this);
+        // DISABLED - Using hotbar item instead of commands
+
+        // commandManager = new CommandManager(this);
 
         // Also register early so we can send a message about issues.
         getServer().getPluginManager().registerEvents(new PriorityListener(this), this);
@@ -550,6 +553,8 @@ public class UltraCosmetics extends JavaPlugin {
         pluginManager.registerEvents(new EntitySpawningManager(), this);
         unmovableItemListener = new UnmovableItemListener(this);
         pluginManager.registerEvents(unmovableItemListener, this);
+        // DISABLED: CosmeticsHotbarListener hardcodes slot 0, we use the standard menu item system instead
+        // pluginManager.registerEvents(new CosmeticsHotbarListener(this), this);
         // No need to register this one, it doesn't have any event handlers of its own
         entityDismountListener = new EntityDismountListener(this);
     }
@@ -954,3 +959,4 @@ public class UltraCosmetics extends JavaPlugin {
         return paperSupport;
     }
 }
+

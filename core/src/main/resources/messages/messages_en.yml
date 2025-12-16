@@ -1,203 +1,203 @@
-Prefix: <italic><bold>Cosmetics >
-No-Permission: <bold><red>You don't have the permission!
-Cosmetic-Disabled: <prefix> <bold><red>This cosmetic is disabled!
-Invalid-Gadget: <prefix> <bold><red>Invalid Gadget!
-Invalid-Pet: <prefix> <bold><red>Invalid Pet!
-Invalid-Mount: <prefix> <bold><red>Invalid Mount!
-Invalid-Effect: <prefix> <bold><red>Invalid Effect!
-Invalid-Morph: <prefix> <bold><red>Invalid Morph!
-Invalid-Hat: <prefix> <bold><red>Invalid Hat!
-Invalid-Suit: <prefix> <bold><red>Invalid Suit!
-Invalid-Emote: <prefix> <bold><red>Invalid Emote!
-Invalid-Menu: <prefix> <bold><red>Invalid Menu!
-Ammo: '<gray>Your ammo: </gray><yellow><ammo>'
-Purchase: <bold><green>PURCHASE
-Cancel: <bold><red>CANCEL
-Buy-Ammo-Description: <bold><yellow>Buy <amount> <gadgetname> ammo for $<price>
-Buy-Cosmetic-Description: <bold><yellow>Buy <gadgetname> for $<price>
-Right-Click-Buy-Ammo: <gray>Right Click to Buy Ammo
-Click-To-Purchase: <yellow>Click to purchase for $<price>
-Not-Enough-Money: <prefix> <bold><red>You don't have enough money!
-Successful-Purchase: <prefix> <bold><green>Successful purchase!
-Buy-Treasure-Key: <bold>Buy a Treasure Key
-Treasure-Keys: <bold><gray>Treasure Keys
-Treasure-Chests: <bold><gold>Treasure Chests
-Dont-Have-Key: <bold><dark_red>You need a key!
-Click-Open-Chest: <green>Click to open a chest
-Click-Buy-Key: <green>Click to buy a key
-Left-Click-Open-Chest: <green>Left-click to open a chest
-Right-Click-Simple: <green>Right-click to just get cosmetics
-Your-Keys: '<italic><gray>Your keys: </gray></italic><bold><white><keys>'
-Buy-Treasure-Key-ItemName: <bold><yellow>1 </yellow><gray>Treasure Key </gray><yellow>for $<price>
-You-Won-Treasure-Chests: '<prefix> <bold><white>You won: <name>!'
-Treasure-Chest-Occupied: <prefix> <bold><red>All treasure locations are full, please wait and try again
-No-Ammo: <prefix> <bold><red>You don't have any ammo for this gadget!
-Cannot-Sell-Item: <prefix> <bold><red>You cannot sell this item!
-Structure-Chests-Disabled: <prefix> <bold><red>Structure chests are disabled!
+Prefix: "\ ✨ <reset><#ff5de5><bold>ᴄᴏꜱᴍᴇᴛɪᴄꜱ <reset><#6d6d6d>• "
+No-Permission: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ!"
+Cosmetic-Disabled: <prefix><#6d6d6d>ᴛʜɪꜱ ᴄᴏꜱᴍᴇᴛɪᴄ ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ!
+Invalid-Gadget: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ɢᴀᴅɢᴇᴛ!"
+Invalid-Pet: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴘᴇᴛ!"
+Invalid-Mount: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴍᴏᴜɴᴛ!"
+Invalid-Effect: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴇꜰꜰᴇᴄᴛ!"
+Invalid-Morph: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴍᴏʀᴘʜ!"
+Invalid-Hat: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ʜᴀᴛ!"
+Invalid-Suit: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ꜱᴜɪᴛ!"
+Invalid-Emote: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴇᴍᴏᴛᴇ!"
+Invalid-Menu: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴍᴇɴᴜ!"
+Ammo: '<#6d6d6d>ʏᴏᴜʀ ᴀᴍᴍᴏ: <#ffd70a><ammo>'
+Purchase: <bold><#85bb65>ᴘᴜʀᴄʜᴀꜱᴇ
+Cancel: <bold><#c93434>ᴄᴀɴᴄᴇʟ
+Buy-Ammo-Description: <bold><#ffd70a>ʙᴜʏ <amount> <gadgetname> ᴀᴍᴍᴏ ꜰᴏʀ <#85bb65>$<price>
+Buy-Cosmetic-Description: <bold><#ffd70a>ʙᴜʏ <gadgetname> ꜰᴏʀ <#85bb65>$<price>
+Right-Click-Buy-Ammo: <#6d6d6d>ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ ᴀᴍᴍᴏ
+Click-To-Purchase: <#ffd70a>ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀꜱᴇ ꜰᴏʀ <#85bb65>$<price>
+Not-Enough-Money: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴꜱᴜꜰꜰɪᴄɪᴇɴᴛ ꜰᴜɴᴅꜱ!"
+Successful-Purchase: "\ ⛃ <reset><#85bb65><bold>ꜱᴜᴄᴄᴇꜱꜱ <reset><#6d6d6d>• <#6d6d6d>ᴘᴜʀᴄʜᴀꜱᴇ ᴄᴏᴍᴘʟᴇᴛᴇ!"
+Buy-Treasure-Key: <bold>ʙᴜʏ ᴀ ᴛʀᴇᴀꜱᴜʀᴇ ᴋᴇʏ
+Treasure-Keys: <bold><#6d6d6d>ᴛʀᴇᴀꜱᴜʀᴇ ᴋᴇʏꜱ
+Treasure-Chests: <bold><#ffd70a>ᴛʀᴇᴀꜱᴜʀᴇ ᴄʜᴇꜱᴛꜱ
+Dont-Have-Key: <bold><#c93434>ʏᴏᴜ ɴᴇᴇᴅ ᴀ ᴋᴇʏ!
+Click-Open-Chest: <#85bb65>ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴀ ᴄʜᴇꜱᴛ
+Click-Buy-Key: <#85bb65>ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ ᴀ ᴋᴇʏ
+Left-Click-Open-Chest: <#85bb65>ʟᴇꜰᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴀ ᴄʜᴇꜱᴛ
+Right-Click-Simple: <#85bb65>ʀɪɢʜᴛ-ᴄʟɪᴄᴋ ᴛᴏ ᴊᴜꜱᴛ ɢᴇᴛ ᴄᴏꜱᴍᴇᴛɪᴄꜱ
+Your-Keys: '<italic><#6d6d6d>ʏᴏᴜʀ ᴋᴇʏꜱ: </italic><bold><white><keys>'
+Buy-Treasure-Key-ItemName: <bold><#ffd70a>1 <#6d6d6d>ᴛʀᴇᴀꜱᴜʀᴇ ᴋᴇʏ <#ffd70a>ꜰᴏʀ <#85bb65>$<price>
+You-Won-Treasure-Chests: '<prefix><#6d6d6d>ʏᴏᴜ ᴡᴏɴ: <name>!'
+Treasure-Chest-Occupied: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ᴀʟʟ ᴛʀᴇᴀꜱᴜʀᴇ ʟᴏᴄᴀᴛɪᴏɴꜱ ᴀʀᴇ ꜰᴜʟʟ, ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ"
+No-Ammo: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ᴀᴍᴍᴏ ꜰᴏʀ ᴛʜɪꜱ ɢᴀᴅɢᴇᴛ!"
+Cannot-Sell-Item: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ᴄᴀɴɴᴏᴛ ꜱᴇʟʟ ᴛʜɪꜱ ɪᴛᴇᴍ!"
+Structure-Chests-Disabled: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ꜱᴛʀᴜᴄᴛᴜʀᴇ ᴄʜᴇꜱᴛꜱ ᴀʀᴇ ᴅɪꜱᴀʙʟᴇᴅ!"
 Clear:
-  Cosmetics: <bold><red>Clear cosmetics
-  Gadgets: <bold><red>Clear current gadget
-  Pets: <bold><red>Clear current pet
-  Mounts: <bold><red>Clear current mount
-  Particle-Effects: <bold><red>Clear current effect
-  Morphs: <bold><red>Clear current morph
-  Hats: <bold><red>Clear current hat
-  Suits: <bold><red>Clear current suit
-  Emotes: <bold><red>Clear current emote
-  Projectile-Effects: <bold><red>Clear current projectile effect
-  Death-Effects: <bold><red>Clear current death effect
+  Cosmetics: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴏꜱᴍᴇᴛɪᴄꜱ
+  Gadgets: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ɢᴀᴅɢᴇᴛ
+  Pets: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ᴘᴇᴛ
+  Mounts: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ᴍᴏᴜɴᴛ
+  Particle-Effects: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ᴇꜰꜰᴇᴄᴛ
+  Morphs: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ᴍᴏʀᴘʜ
+  Hats: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ʜᴀᴛ
+  Suits: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ꜱᴜɪᴛ
+  Emotes: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ᴇᴍᴏᴛᴇ
+  Projectile-Effects: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛ
+  Death-Effects: <bold><#c93434>ᴄʟᴇᴀʀ ᴄᴜʀʀᴇɴᴛ ᴅᴇᴀᴛʜ ᴇꜰꜰᴇᴄᴛ
 Menu:
   Purchase-Rename:
     Button:
-      Showcase: <bold><red>Rename the pet to </red><white><name> </white><red>for </red><yellow>$<price>
-    Title: <bold>Rename Pet
+      Showcase: <bold><#c93434>ʀᴇɴᴀᴍᴇ ᴛʜᴇ ᴘᴇᴛ ᴛᴏ <white><name> <#c93434>ꜰᴏʀ <#ffd70a>$<price>
+    Title: <bold>ʀᴇɴᴀᴍᴇ ᴘᴇᴛ
   Purchase-Cosmetic:
-    Title: <bold>Purchase <cosmetic>
+    Title: <bold>ᴘᴜʀᴄʜᴀꜱᴇ <cosmetic>
   Rename-Pet:
     Button:
-      Name: '<bold><red>Click to rename: <petname>'
+      Name: '<bold><#c93434>ᴄʟɪᴄᴋ ᴛᴏ ʀᴇɴᴀᴍᴇ: <petname>'
     Placeholder: Pet Name
-    Title: Rename pet
+    Title: ʀᴇɴᴀᴍᴇ ᴘᴇᴛ
   Main:
-    Title: <bold>Main Menu
+    Title: <bold>ᴍᴀɪɴ ᴍᴇɴᴜ
     Button:
-      Name: <bold><red>Main Menu
+      Name: <bold><#c93434>ᴍᴀɪɴ ᴍᴇɴᴜ
   Pets:
-    Title: <bold>Pets
+    Title: <bold>ᴘᴇᴛꜱ
     Button:
-      Name: <bold><green>Pets
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Spawn
-      Tooltip-Unequip: <bold><red>Despawn
+      Name: <bold><#85bb65>ᴘᴇᴛꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <white><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ꜱᴘᴀᴡɴ
+      Tooltip-Unequip: <bold><#c93434>ᴅᴇꜱᴘᴀᴡɴ
   Gadgets:
-    Title: <bold>Gadgets
+    Title: <bold>ɢᴀᴅɢᴇᴛꜱ
     Button:
-      Name: <bold><blue>Gadgets
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Activate
-      Tooltip-Unequip: <bold><red>Deactivate
+      Name: <bold><#6eff4a>ɢᴀᴅɢᴇᴛꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <#6d6d6d><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ᴀᴄᴛɪᴠᴀᴛᴇ
+      Tooltip-Unequip: <bold><#c93434>ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇ
   Mounts:
-    Title: <bold>Mounts
+    Title: <bold>ᴍᴏᴜɴᴛꜱ
     Button:
-      Name: <bold><gold>Mounts
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Spawn
-      Tooltip-Unequip: <bold><red>Despawn
+      Name: <bold><#ffd70a>ᴍᴏᴜɴᴛꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <white><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ꜱᴘᴀᴡɴ
+      Tooltip-Unequip: <bold><#c93434>ᴅᴇꜱᴘᴀᴡɴ
   Morphs:
-    Title: <bold>Morphs
+    Title: <bold>ᴍᴏʀᴘʜꜱ
     Button:
-      Name: <bold><dark_green>Morphs
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Morph into
-      Tooltip-Unequip: <bold><red>Unmorph from
+      Name: <bold><#6eff4a>ᴍᴏʀᴘʜꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <#6d6d6d><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ᴍᴏʀᴘʜ ɪɴᴛᴏ
+      Tooltip-Unequip: <bold><#c93434>ᴜɴᴍᴏʀᴘʜ ꜰʀᴏᴍ
   Hats:
-    Title: <bold>Hats
+    Title: <bold>ʜᴀᴛꜱ
     Button:
-      Name: <bold><light_purple>Hats
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Equip
-      Tooltip-Unequip: <bold><red>Unequip
+      Name: <bold><#ff5de5>ʜᴀᴛꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <white><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ᴇǫᴜɪᴘ
+      Tooltip-Unequip: <bold><#c93434>ᴜɴᴇǫᴜɪᴘ
   Particle-Effects:
-    Title: <bold>Particle Effects
+    Title: <bold>ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛꜱ
     Button:
-      Name: <bold><aqua>Particle Effects
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Summon
-      Tooltip-Unequip: <bold><red>Unsummon
+      Name: <bold><#ff5de5>ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <#6d6d6d><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ꜱᴜᴍᴍᴏɴ
+      Tooltip-Unequip: <bold><#c93434>ᴜɴꜱᴜᴍᴍᴏɴ
   Suits:
-    Title: <bold>Suits
+    Title: <bold>ꜱᴜɪᴛꜱ
     Button:
-      Name: <bold><dark_aqua>Suits
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Equip
-      Tooltip-Unequip: <bold><red>Unequip
+      Name: <bold><#4adbff>ꜱᴜɪᴛꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <#6d6d6d><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ᴇǫᴜɪᴘ
+      Tooltip-Unequip: <bold><#c93434>ᴜɴᴇǫᴜɪᴘ
   Emotes:
-    Title: <bold>Emotes
+    Title: <bold>ᴇᴍᴏᴛᴇꜱ
     Button:
-      Name: <bold><yellow>Emotes
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Equip
-      Tooltip-Unequip: <bold><red>Unequip
+      Name: <bold><#ffd70a>ᴇᴍᴏᴛᴇꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <#6d6d6d><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ᴇǫᴜɪᴘ
+      Tooltip-Unequip: <bold><#c93434>ᴜɴᴇǫᴜɪᴘ
   Projectile-Effects:
-    Title: <bold>Projectile Effects
+    Title: <bold>ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛꜱ
     Button:
-      Name: <bold><dark_purple>Projectile Effects
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Equip
-      Tooltip-Unequip: <bold><red>Unequip
+      Name: <bold><#a64dff>ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <#6d6d6d><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ᴇǫᴜɪᴘ
+      Tooltip-Unequip: <bold><#c93434>ᴜɴᴇǫᴜɪᴘ
   Death-Effects:
-    Title: <bold>Death Effects
+    Title: <bold>ᴅᴇᴀᴛʜ ᴇꜰꜰᴇᴄᴛꜱ
     Button:
-      Name: <bold><red>Death Effects
-      Lore: '<gray>Unlocked: </gray><white><unlocked>'
-      Tooltip-Equip: <bold><aqua>Equip
-      Tooltip-Unequip: <bold><red>Unequip
+      Name: <bold><#ff5348>ᴅᴇᴀᴛʜ ᴇꜰꜰᴇᴄᴛꜱ
+      Lore: '<#6d6d6d>ᴜɴʟᴏᴄᴋᴇᴅ: <#6d6d6d><unlocked>'
+      Tooltip-Equip: <bold><#ffd70a>ᴇǫᴜɪᴘ
+      Tooltip-Unequip: <bold><#c93434>ᴜɴᴇǫᴜɪᴘ
   Buy-Ammo:
-    Title: <bold>Buy Ammo
+    Title: <bold>ʙᴜʏ ᴀᴍᴍᴏ
   Misc:
     Button:
-      Previous-Page: <bold><red>Previous Page
-      Next-Page: <bold><green>Next Page
-  Disabled-Button: <red>DISABLED
+      Previous-Page: <bold><#c93434>ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ
+      Next-Page: <bold><#85bb65>ɴᴇxᴛ ᴘᴀɢᴇ
+  Disabled-Button: <#c93434>ᴅɪꜱᴀʙʟᴇᴅ
 Chest-Location:
-  Not-Enough-Space: <prefix> <bold><red>There isn't enough space for a treasure chest!
-  Region-Disabled: <prefix> <bold><red>You can't open a chest here!
-  Invalid: <prefix> <bold><red>That's not a valid location.
-  In-Air: <prefix> <bold><red>That location is not on the ground!
-  In-Ground: <prefix> <bold><red>That location is in the ground!
-  Suggestion: <prefix> <green>Maybe you meant <location>?
-  Dismount-First: <prefix> <bold><red>You must dismount your vehicle before opening a chest.
-  Too-Close-To-Entity: <prefix> <bold><red>You are too close to another entity!
-Active-Pet-Needed: <bold><red>You need to spawn a pet to rename it
+  Not-Enough-Space: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɴᴏᴛ ᴇɴᴏᴜɢʜ ꜱᴘᴀᴄᴇ ꜰᴏʀ ᴀ ᴛʀᴇᴀꜱᴜʀᴇ ᴄʜᴇꜱᴛ!"
+  Region-Disabled: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ᴄᴀɴ'ᴛ ᴏᴘᴇɴ ᴀ ᴄʜᴇꜱᴛ ʜᴇʀᴇ!"
+  Invalid: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ᴛʜᴀᴛ'ꜱ ɴᴏᴛ ᴀ ᴠᴀʟɪᴅ ʟᴏᴄᴀᴛɪᴏɴ."
+  In-Air: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ᴛʜᴀᴛ ʟᴏᴄᴀᴛɪᴏɴ ɪꜱ ɴᴏᴛ ᴏɴ ᴛʜᴇ ɢʀᴏᴜɴᴅ!"
+  In-Ground: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ᴛʜᴀᴛ ʟᴏᴄᴀᴛɪᴏɴ ɪꜱ ɪɴ ᴛʜᴇ ɢʀᴏᴜɴᴅ!"
+  Suggestion: <prefix><#85bb65>ᴍᴀʏʙᴇ ʏᴏᴜ ᴍᴇᴀɴᴛ <location>?
+  Dismount-First: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ᴅɪꜱᴍᴏᴜɴᴛ ʏᴏᴜʀ ᴠᴇʜɪᴄʟᴇ ꜰɪʀꜱᴛ!"
+  Too-Close-To-Entity: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ᴀʀᴇ ᴛᴏᴏ ᴄʟᴏꜱᴇ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴇɴᴛɪᴛʏ!"
+Active-Pet-Needed: <bold><#c93434>ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ꜱᴘᴀᴡɴ ᴀ ᴘᴇᴛ ᴛᴏ ʀᴇɴᴀᴍᴇ ɪᴛ
 Treasure-Chests-Loot:
   Ammo: |-
-    <blue>Ammo
+    <#6eff4a>ᴀᴍᴍᴏ
     <ammo> <cosmetic>
   Money: |-
-    <yellow>Money
-    <bold><yellow>$<money>
-  Nothing: <bold><red>Nothing
+    <#ffd70a>ᴍᴏɴᴇʏ
+    <bold><#85bb65>$<money>
+  Nothing: <bold><#c93434>ɴᴏᴛʜɪɴɢ
   Pets: |-
-    <green>Pet
+    <#85bb65>ᴘᴇᴛ
     <cosmetic>
   Mounts: |-
-    <gold>Mount
+    <#ffd70a>ᴍᴏᴜɴᴛ
     <cosmetic>
   Particle-Effects: |-
-    <aqua>Particle Effect
+    <#ff5de5>ᴘᴀʀᴛɪᴄʟᴇ ᴇꜰꜰᴇᴄᴛ
     <cosmetic>
   Morphs: |-
-    <dark_green>Morph
+    <#6eff4a>ᴍᴏʀᴘʜ
     <cosmetic>
   Hats: |-
-    <light_purple>Hat
+    <#ff5de5>ʜᴀᴛ
     <cosmetic>
   Gadgets: |-
-    <blue>Gadget
+    <#6eff4a>ɢᴀᴅɢᴇᴛ
     <cosmetic>
   Suits: |-
-    <dark_aqua>Suit
+    <#4adbff>ꜱᴜɪᴛ
     <cosmetic>
   Emotes: |-
-    <yellow>Emote
+    <#ffd70a>ᴇᴍᴏᴛᴇ
     <cosmetic>
   Death-Effects: |-
-    <red>Death Effect
+    <#ff5348>ᴅᴇᴀᴛʜ ᴇꜰꜰᴇᴄᴛ
     <cosmetic>
   Projectile-Effects: |-
-    <dark_purple>Projectile Effect
+    <#a64dff>ᴘʀᴏᴊᴇᴄᴛɪʟᴇ ᴇꜰꜰᴇᴄᴛ
     <cosmetic>
 Treasure-Chests-Loot-Messages:
-  Ammo: <prefix> <bold><gold><name> found <ammo> <cosmetic> ammo
-  Money: <prefix> <bold><gold><name> found $<money>
-  Pets: <prefix> <bold><gold><name> found rare <cosmetic>
-  Mounts: <prefix> <bold><gold><name> found rare <cosmetic>
-  Particle-Effects: <prefix> <bold><gold><name> found legendary <cosmetic>
-  Morphs: <prefix> <bold><gold><name> found legendary <cosmetic>
-  Hats: <prefix> <bold><gold><name> found rare <cosmetic>
-  Gadgets: <prefix> <bold><gold><name> found gadget <cosmetic>
-  Suits: <prefix> <bold><gold><name> found rare <cosmetic>
-  Emotes: <prefix> <bold><gold><name> found rare <cosmetic>
+  Ammo: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ <ammo> <cosmetic> ᴀᴍᴍᴏ
+  Money: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ <#85bb65>$<money>
+  Pets: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ ʀᴀʀᴇ <cosmetic>
+  Mounts: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ ʀᴀʀᴇ <cosmetic>
+  Particle-Effects: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ ʟᴇɢᴇɴᴅᴀʀʏ <cosmetic>
+  Morphs: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ ʟᴇɢᴇɴᴅᴀʀʏ <cosmetic>
+  Hats: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ ʀᴀʀᴇ <cosmetic>
+  Gadgets: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ ɢᴀᴅɢᴇᴛ <cosmetic>
+  Suits: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ ʀᴀʀᴇ <cosmetic>
+  Emotes: <prefix><bold><#ffd70a><name> <#6d6d6d>ꜰᴏᴜɴᴅ ʀᴀʀᴇ <cosmetic>
   Death-Effects: <prefix> <bold><gold><name> found rare <cosmetic>
   Projectile-Effects: <prefix> <bold><gold><name> found rare <cosmetic>
 Permission-Lore:
@@ -214,11 +214,11 @@ Disable-Filter-By-Owned: <bold><red>Change to Show All
 Enable-Filter-By-Owned: <bold><red>Change to Filter By Owned
 Disable-Treasure-Notification: <bold><red>Treasure notifications disabled
 Enable-Treasure-Notification: <bold><red>Treasure notifications enabled
-Gadgets-Enabled-Needed: <prefix> <bold><red>You need to enable gadgets!
+Gadgets-Enabled-Needed: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴇɴᴀʙʟᴇ ɢᴀᴅɢᴇᴛꜱ!"
 Gadgets:
-  Equip: <prefix> <blue>You equipped <gadgetname>
-  Unequip: <prefix> <blue>You unequipped <gadgetname>
-  Countdown-Message: <prefix> <bold><red>You can't use <gadgetname> for <time>s!
+  Equip: <prefix><white>ʏᴏᴜ ᴇǫᴜɪᴘᴘᴇᴅ <gadgetname>
+  Unequip: <prefix><white>ʏᴏᴜ ᴜɴᴇǫᴜɪᴘᴘᴇᴅ <gadgetname>
+  Countdown-Message: "<prefix><#6d6d6d>ʏᴏᴜ ᴄᴀɴ'ᴛ ᴜꜱᴇ <gadgetname> ꜰᴏʀ <#ffd70a><time>ꜱ<#6d6d6d>!"
   PaintballGun:
     name: <bold><aqua>Paintball Gun
     Description: PEW PEW PEW PEW!!!
@@ -451,13 +451,13 @@ Mounts:
     menu-name: <bold><gold>Camel
     entity-displayname: <bold><playername>'s Camel
     Description: Your standard, everyday camel
-  Equip: <prefix> <blue>You spawned <mountname>
-  Unequip: <prefix> <blue>You despawned <mountname>
-  Cant-Spawn: <prefix> <bold><red>Monsters can't spawn in peaceful worlds!
-  Not-Enough-Room: <prefix> <bold><red>Not enough room for a mount here!
+  Equip: <prefix><white>ʏᴏᴜ ꜱᴘᴀᴡɴᴇᴅ <mountname>
+  Unequip: <prefix><white>ʏᴏᴜ ᴅᴇꜱᴘᴀᴡɴᴇᴅ <mountname>
+  Cant-Spawn: "<prefix><#6d6d6d>ᴍᴏɴꜱᴛᴇʀꜱ ᴄᴀɴ'ᴛ ꜱᴘᴀᴡɴ ɪɴ ᴘᴇᴀᴄᴇꜰᴜʟ ᴡᴏʀʟᴅꜱ!"
+  Not-Enough-Room: "<prefix><#6d6d6d>ɴᴏᴛ ᴇɴᴏᴜɢʜ ʀᴏᴏᴍ ꜰᴏʀ ᴀ ᴍᴏᴜɴᴛ ʜᴇʀᴇ!"
 Particle-Effects:
-  Equip: <prefix> <blue>You summoned <effectname>
-  Unequip: <prefix> <blue>You unsummoned <effectname>
+  Equip: <prefix><white>ʏᴏᴜ ꜱᴜᴍᴍᴏɴᴇᴅ <effectname>
+  Unequip: <prefix><white>ʏᴏᴜ ᴜɴꜱᴜᴍᴍᴏɴᴇᴅ <effectname>
   RainCloud:
     name: <bold><blue>Rain Cloud
     Description: |-
@@ -888,8 +888,8 @@ Pets:
     menu-name: <bold><green>Sniffer
     entity-displayname: <bold><playername>'s Sniffer
     Description: Can smell pottery!
-  Equip: <prefix> <blue>You spawned <petname>
-  Unequip: <prefix> <blue>You despawned <petname>
+  Equip: <prefix><white>ʏᴏᴜ ꜱᴘᴀᴡɴᴇᴅ <petname>
+  Unequip: <prefix><white>ʏᴏᴜ ᴅᴇꜱᴘᴀᴡɴᴇᴅ <petname>
   Armadillo:
     menu-name: <bold><gold>Armadillo
     entity-displayname: <bold><playername>'s Armadillo
@@ -933,8 +933,8 @@ Morphs:
     name: <bold><white>Snowman
     skill: '<yellow>Left Click</yellow><gray> to: </gray><green>Throw Snowball'
     Description: Become Olaf!
-  Equip: <prefix> <blue>You morphed into <morphname>
-  Unequip: <prefix> <blue>You unmorphed from <morphname>
+  Equip: <prefix><white>ʏᴏᴜ ᴍᴏʀᴘʜᴇᴅ ɪɴᴛᴏ <morphname>
+  Unequip: <prefix><white>ʏᴏᴜ ᴜɴᴍᴏʀᴘʜᴇᴅ ꜰʀᴏᴍ <morphname>
   WitherSkeleton:
     name: <bold><dark_gray>Wither Skeleton
     skill: '<yellow>Sneak</yellow><gray> to: </gray><green>Bone Bomb'
@@ -1150,8 +1150,8 @@ Morphs:
     name: <bold><green>Sniffer
     Description: '*sniff sniff*'
 Hats:
-  Equip: <prefix> <blue>You equipped <hatname> hat!
-  Unequip: <prefix> <blue>You unequipped <hatname> hat!
+  Equip: <prefix><white>ʏᴏᴜ ᴇǫᴜɪᴘᴘᴇᴅ <hatname> ʜᴀᴛ!
+  Unequip: <prefix><white>ʏᴏᴜ ᴜɴᴇǫᴜɪᴘᴘᴇᴅ <hatname> ʜᴀᴛ!
   Astronaut:
     Name: <bold><gray>Astronaut
     Description: Houston, we have a problem...
@@ -1679,14 +1679,14 @@ Suits:
     Description: |-
       Slimy green suit.
       The slimes will love it!
-  Equip: <prefix> <blue>You equipped <suitname>!
-  Unequip: <prefix> <blue>You unequipped <suitname>!
+  Equip: <prefix><white>ʏᴏᴜ ᴇǫᴜɪᴘᴘᴇᴅ <suitname>!
+  Unequip: <prefix><white>ʏᴏᴜ ᴜɴᴇǫᴜɪᴘᴘᴇᴅ <suitname>!
   Suit-Part-Lore: <blue>Suits Part
   Whole-Equip-Lore: <italic><gray>Equip the whole suit!
   Must-Remove: [ ]
 Emotes:
-  Equip: <prefix> <blue>You equipped <emotename>
-  Unequip: <prefix> <blue>You unequipped <emotename>
+  Equip: <prefix><white>ʏᴏᴜ ᴇǫᴜɪᴘᴘᴇᴅ <emotename>
+  Unequip: <prefix><white>ʏᴏᴜ ᴜɴᴇǫᴜɪᴘᴘᴇᴅ <emotename>
   Cry:
     Name: <bold><blue>Cry
     Description: Are you really sad? :(
@@ -1727,8 +1727,8 @@ Emotes:
     Name: <bold><aqua>Lovestruck Allay
     Description: Are we falling in love?
 Projectile-Effects:
-  Equip: <prefix> <blue>You equipped <projectile-effectname>
-  Unequip: <prefix> <blue>You unequipped <projectile-effectname>
+  Equip: <prefix><white>ʏᴏᴜ ᴇǫᴜɪᴘᴘᴇᴅ <projectile-effectname>
+  Unequip: <prefix><white>ʏᴏᴜ ᴜɴᴇǫᴜɪᴘᴘᴇᴅ <projectile-effectname>
   Rainbow:
     name: <bold><rainbow>Rainbow
     Description: Rainbow-colored particles
@@ -1829,8 +1829,8 @@ Projectile-Effects:
     name: <bold><aqua>Sculk Soul
     Description: Cyan souls
 Death-Effects:
-  Equip: <prefix> <blue>You equipped <death-effectname>
-  Unequip: <prefix> <blue>You unequipped <death-effectname>
+  Equip: <prefix><white>ʏᴏᴜ ᴇǫᴜɪᴘᴘᴇᴅ <death-effectname>
+  Unequip: <prefix><white>ʏᴏᴜ ᴜɴᴇǫᴜɪᴘᴘᴇᴅ <death-effectname>
   Explosion:
     name: <bold><dark_red>Explosion
     Description: BOOM!
@@ -1845,38 +1845,38 @@ Death-Effects:
   PuffOfSmoke:
     Description: Disappear in a puff of smoke!
     name: <bold><gray>Puff of Smoke
-Enabled-SelfMorphView: <prefix> <blue>You enabled self view for morphs!
-Disabled-SelfMorphView: <prefix> <blue>You disabled self view for morphs!
-Enabled-Gadgets: <prefix> <blue>You enabled gadgets!
-Disabled-Gadgets: <prefix> <blue>You disabled gadgets!
-Not-Allowed-From-Console: <bold><red>This can't be executed from console!
-World-Disabled: <prefix> <bold><red>Cosmetics are disabled in this world!
-Region-Disabled: <prefix> <bold><red>Cosmetics are disabled in this area!
-Region-Disabled-Category: <prefix> <bold><red><category> cosmetics are disabled in this area!
-Disabled-Command-Message: <prefix> <bold><red>You can't use this command while cosmetics are equipped!
-Not-Allowed-In-Vanish: <prefix> <bold><red>You can't use cosmetics while in vanish!
+Enabled-SelfMorphView: <prefix><white>ʏᴏᴜ ᴇɴᴀʙʟᴇᴅ ꜱᴇʟꜰ ᴠɪᴇᴡ ꜰᴏʀ ᴍᴏʀᴘʜꜱ!
+Disabled-SelfMorphView: <prefix><white>ʏᴏᴜ ᴅɪꜱᴀʙʟᴇᴅ ꜱᴇʟꜰ ᴠɪᴇᴡ ꜰᴏʀ ᴍᴏʀᴘʜꜱ!
+Enabled-Gadgets: <prefix><white>ʏᴏᴜ ᴇɴᴀʙʟᴇᴅ ɢᴀᴅɢᴇᴛꜱ!
+Disabled-Gadgets: <prefix><white>ʏᴏᴜ ᴅɪꜱᴀʙʟᴇᴅ ɢᴀᴅɢᴇᴛꜱ!
+Not-Allowed-From-Console: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ᴛʜɪꜱ ᴄᴀɴ'ᴛ ʙᴇ ᴇxᴇᴄᴜᴛᴇᴅ ꜰʀᴏᴍ ᴄᴏɴꜱᴏʟᴇ!"
+World-Disabled: "<prefix><#6d6d6d>ᴄᴏꜱᴍᴇᴛɪᴄꜱ ᴀʀᴇ ᴅɪꜱᴀʙʟᴇᴅ ɪɴ ᴛʜɪꜱ ᴡᴏʀʟᴅ!"
+Region-Disabled: "<prefix><#6d6d6d>ᴄᴏꜱᴍᴇᴛɪᴄꜱ ᴀʀᴇ ᴅɪꜱᴀʙʟᴇᴅ ɪɴ ᴛʜɪꜱ ᴀʀᴇᴀ!"
+Region-Disabled-Category: "<prefix><#6d6d6d><category> ᴄᴏꜱᴍᴇᴛɪᴄꜱ ᴀʀᴇ ᴅɪꜱᴀʙʟᴇᴅ ɪɴ ᴛʜɪꜱ ᴀʀᴇᴀ!"
+Disabled-Command-Message: "<prefix><#6d6d6d>ʏᴏᴜ ᴄᴀɴ'ᴛ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴡʜɪʟᴇ ᴄᴏꜱᴍᴇᴛɪᴄꜱ ᴀʀᴇ ᴇǫᴜɪᴘᴘᴇᴅ!"
+Not-Allowed-In-Vanish: "<prefix><#6d6d6d>ʏᴏᴜ ᴄᴀɴ'ᴛ ᴜꜱᴇ ᴄᴏꜱᴍᴇᴛɪᴄꜱ ᴡʜɪʟᴇ ɪɴ ᴠᴀɴɪꜱʜ!"
 Too-Long: Too long, try again
-Cannot-Disable-Gadgets: <prefix> <bold><red>You cannot disable gadgets.
+Cannot-Disable-Gadgets: "<prefix><#6d6d6d>ʏᴏᴜ ᴄᴀɴɴᴏᴛ ᴅɪꜱᴀʙʟᴇ ɢᴀᴅɢᴇᴛꜱ."
 Must-Remove:
-  Hats: <prefix> <bold><red>You must remove your helmet to equip a hat!
+  Hats: "<prefix><#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʜᴇʟᴍᴇᴛ ᴛᴏ ᴇǫᴜɪᴘ ᴀ ʜᴀᴛ!"
   Suits:
-    HELMET: <prefix> <bold><red>You must remove your helmet to equip a suit helmet!
-    CHESTPLATE: <prefix> <bold><red>You must remove your chestplate to equip a suit chestplate!
-    LEGGINGS: <prefix> <bold><red>You must remove your leggings to equip suit leggings!
-    BOOTS: <prefix> <bold><red>You must remove your boots to equip suit boots!
-  Emotes: <prefix> <bold><red>You must remove your helmet to equip an emote!
-  Gadgets: <prefix> <bold><red>You must clear hotbar slot <slot> to equip a gadget!
-  Mounts: <prefix> <bold><red>You must clear hotbar slot <slot> to equip this mount!
-Use-Rename-Pet-Command: <prefix> <red>Use <yellow>/uc rename</yellow> to rename
-Commands-Disabled-During-Chest: <prefix> <bold><red>You can't use commands while opening a chest!
-No-Buy-Key-Permission: <prefix> <red><bold>You don't have permission to buy treasure keys!
+    HELMET: "<prefix><#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʜᴇʟᴍᴇᴛ ᴛᴏ ᴇǫᴜɪᴘ ᴀ ꜱᴜɪᴛ ʜᴇʟᴍᴇᴛ!"
+    CHESTPLATE: "<prefix><#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ᴄʜᴇꜱᴛᴘʟᴀᴛᴇ ᴛᴏ ᴇǫᴜɪᴘ ᴀ ꜱᴜɪᴛ ᴄʜᴇꜱᴛᴘʟᴀᴛᴇ!"
+    LEGGINGS: "<prefix><#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʟᴇɢɢɪɴɢꜱ ᴛᴏ ᴇǫᴜɪᴘ ꜱᴜɪᴛ ʟᴇɢɢɪɴɢꜱ!"
+    BOOTS: "<prefix><#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʙᴏᴏᴛꜱ ᴛᴏ ᴇǫᴜɪᴘ ꜱᴜɪᴛ ʙᴏᴏᴛꜱ!"
+  Emotes: "<prefix><#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ʀᴇᴍᴏᴠᴇ ʏᴏᴜʀ ʜᴇʟᴍᴇᴛ ᴛᴏ ᴇǫᴜɪᴘ ᴀɴ ᴇᴍᴏᴛᴇ!"
+  Gadgets: "<prefix><#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ᴄʟᴇᴀʀ ʜᴏᴛʙᴀʀ ꜱʟᴏᴛ <slot> ᴛᴏ ᴇǫᴜɪᴘ ᴀ ɢᴀᴅɢᴇᴛ!"
+  Mounts: "<prefix><#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ᴄʟᴇᴀʀ ʜᴏᴛʙᴀʀ ꜱʟᴏᴛ <slot> ᴛᴏ ᴇǫᴜɪᴘ ᴛʜɪꜱ ᴍᴏᴜɴᴛ!"
+Use-Rename-Pet-Command: "<prefix><#6d6d6d>ᴜꜱᴇ <#ffd70a>/uc rename <#6d6d6d>ᴛᴏ ʀᴇɴᴀᴍᴇ"
+Commands-Disabled-During-Chest: "<prefix><#6d6d6d>ʏᴏᴜ ᴄᴀɴ'ᴛ ᴜꜱᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ᴡʜɪʟᴇ ᴏᴘᴇɴɪɴɢ ᴀ ᴄʜᴇꜱᴛ!"
+No-Buy-Key-Permission: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ᴛᴏ ʙᴜʏ ᴛʀᴇᴀꜱᴜʀᴇ ᴋᴇʏꜱ!"
 Particles-Minimal-In-Client: <yellow>You have particles set to "minimal" in your client settings and so you won't be able to see particles.
-Cosmetics-Toggled-Off: <prefix> <blue>Cosmetics toggled off
-Cosmetics-Toggled-On: <prefix> <blue>Cosmetics toggled on
-Invalid-Category: <prefix> <bold><red>Invalid Category!
-Invalid-Cosmetic: <prefix> <bold><red>Invalid Cosmetic!
-Invalid-Player: '<prefix> <bold><red>Invalid Player!'
-Must-Specify-Player: <prefix> <bold><red>You must specify a player!
-Invalid-Number: '<prefix> <bold><red>Invalid number: <value>'
+Cosmetics-Toggled-Off: <prefix><white>ᴄᴏꜱᴍᴇᴛɪᴄꜱ ᴛᴏɢɢʟᴇᴅ ᴏꜰꜰ
+Cosmetics-Toggled-On: <prefix><white>ᴄᴏꜱᴍᴇᴛɪᴄꜱ ᴛᴏɢɢʟᴇᴅ ᴏɴ
+Invalid-Category: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴄᴀᴛᴇɢᴏʀʏ!"
+Invalid-Cosmetic: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴄᴏꜱᴍᴇᴛɪᴄ!"
+Invalid-Player: '"\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ᴘʟᴀʏᴇʀ!"'
+Must-Specify-Player: "\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ʏᴏᴜ ᴍᴜꜱᴛ ꜱᴘᴇᴄɪꜰʏ ᴀ ᴘʟᴀʏᴇʀ!"
+Invalid-Number: '"\ ✘ <reset><#c93434><bold>ᴇʀʀᴏʀ <reset><#6d6d6d>• <#6d6d6d>ɪɴᴠᴀʟɪᴅ ɴᴜᴍʙᴇʀ: <value>"'
 Treasure-Keys-Given: <green><keys> keys given to <playername>
 Ammo-Given: <green><ammo> <gadgetname> ammo given to <playername>

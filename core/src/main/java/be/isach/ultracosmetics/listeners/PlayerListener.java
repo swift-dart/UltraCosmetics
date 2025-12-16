@@ -22,6 +22,7 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityPickupItemEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
+import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.player.PlayerChangedWorldEvent;
 import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.bukkit.event.player.PlayerItemDamageEvent;
@@ -97,7 +98,7 @@ public class PlayerListener implements Listener {
         if (!SettingsManager.isAllowedWorld(event.getPlayer().getWorld())) return;
         UltraPlayer up = pm.getUltraPlayer(event.getPlayer());
         if (menuItemEnabled && event.getPlayer().hasPermission("ultracosmetics.receivechest")) {
-            ultraCosmetics.getScheduler().runAtEntityLater(event.getPlayer(), up::giveMenuItem, respawnItemDelay);
+            ultraCosmetics.getScheduler().runAtEntityLater(event.getPlayer(), (Runnable) up::giveMenuItem, respawnItemDelay);
         }
         // If the player joined an allowed world from a non-allowed world
         // or we need to update their cosmetics for another reason, re-equip their cosmetics.
@@ -151,6 +152,75 @@ public class PlayerListener implements Listener {
             }
             ultraPlayer.getProfile().equip();
         });
+    }
+
+    /**
+     * Folia workaround: PlayerRespawnEvent is broken in Folia.
+     * Use InventoryCloseEvent to detect when death screen closes.
+     * Credit: https://github.com/PaperMC/Folia/issues/46
+     */
+    @EventHandler(priority = EventPriority.HIGHEST)
+    public void onInventoryClose(InventoryCloseEvent event) {
+        ultraCosmetics.getLogger().info("[DEBUG] InventoryCloseEvent fired!");
+        
+        if (!(event.getPlayer() instanceof Player)) {
+            ultraCosmetics.getLogger().info("[DEBUG] Not a player, returning");
+            return;
+        }
+        Player player = (Player) event.getPlayer();
+        
+        ultraCosmetics.getLogger().info("[DEBUG] Player: " + player.getName());
+        
+        if (isNPC(player)) {
+            ultraCosmetics.getLogger().info("[DEBUG] Is NPC, returning");
+            return;
+        }
+        
+        ultraCosmetics.getLogger().info("[DEBUG] Inventory closed for " + player.getName() + " - isDead: " + player.isDead());
+        
+        // If player is currently dead (death screen is open), schedule a check for after respawn
+        if (player.isDead()) {
+            ultraCosmetics.getLogger().info("Death screen closing for " + player.getName() + " - scheduling cosmetic re-equip");
+            // Use entity scheduler - check next tick if they respawned
+            ultraCosmetics.getScheduler().runAtEntityLater(player, () -> {
+                ultraCosmetics.getLogger().info("Checking respawn status for " + player.getName() + " - online: " + player.isOnline() + ", dead: " + player.isDead() + ", health: " + player.getHealth());
+                
+                // Check if player has respawned (alive, has health, online)
+                if (!player.isOnline() || player.isDead() || player.getHealth() <= 0) {
+                    ultraCosmetics.getLogger().info("Player not ready yet, skipping re-equip");
+                    return;
+                }
+                
+                ultraCosmetics.getLogger().info("Player has respawned - re-equipping cosmetics");
+                
+                // Player has respawned, re-equip cosmetics
+                if (!SettingsManager.isAllowedWorld(player.getWorld())) {
+                    ultraCosmetics.getLogger().info("World not allowed, skipping");
+                    return;
+                }
+                UltraPlayer ultraPlayer = pm.getUltraPlayer(player);
+                // Always give menu item back on respawn (force give to bypass config check)
+                ultraCosmetics.getLogger().info("Re-equipping cosmetics for " + player.getName());
+                ultraPlayer.getProfile().equip();
+                
+                // Give menu item with additional delay to ensure it happens after any teleports
+                // Try multiple times with increasing delays to ensure it sticks
+                ultraCosmetics.getScheduler().runAtEntityLater(player, () -> {
+                    ultraCosmetics.getLogger().info("Giving menu item to " + player.getName() + " (attempt 1 - 10 ticks)");
+                    ultraPlayer.giveMenuItem(true);
+                }, 10L);
+                
+                ultraCosmetics.getScheduler().runAtEntityLater(player, () -> {
+                    ultraCosmetics.getLogger().info("Giving menu item to " + player.getName() + " (attempt 2 - 20 ticks)");
+                    ultraPlayer.giveMenuItem(true);
+                }, 20L);
+                
+                ultraCosmetics.getScheduler().runAtEntityLater(player, () -> {
+                    ultraCosmetics.getLogger().info("Giving menu item to " + player.getName() + " (attempt 3 - 40 ticks)");
+                    ultraPlayer.giveMenuItem(true);
+                }, 40L);
+            }, Math.max(1, respawnItemDelay));
+        }
     }
 
     @EventHandler
